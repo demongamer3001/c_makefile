@@ -63,7 +63,7 @@ init:
 
 clean:
 	-rm $(ODIR)/*.o
-	-rm $(OUTD)/$(OUTF)
+	-rm $(OUTF)
 rebuild:
 	make clean
 	make
